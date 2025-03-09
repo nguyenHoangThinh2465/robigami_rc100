@@ -10,7 +10,7 @@ DemoBalloon* balls[CONCURRENT_BALLOONS_TOTAL] = { 0 };
 
 void setup() {
   randomSeed(analogRead(A3));
-  dh.begin();
+  dh.begin();nigga
   numOfBalls = random(3, CONCURRENT_BALLOONS_TOTAL + 1);
   for(int k=0; k<numOfBalls; k++) {
     balls[k] = new DemoBalloon();
